@@ -12,7 +12,7 @@
 ## Demo
 
 
-[link](https://andy-rs6.github.io/auto-parts-lab2/)
+[Link-to-demo-Auto-Parts](https://andy-rs6.github.io/auto-parts-lab2/)
 
 
 

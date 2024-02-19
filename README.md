@@ -7,7 +7,7 @@
 
 ## Screenshots
 
-![Uploading Screenshot 2024-02-19 at 10.53.20 AM.png…]()
+![Auto parts landing page ](/screenshots/auto-parts-page.png)
 
 ## Demo
 

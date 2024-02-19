@@ -12,7 +12,7 @@
 ## Demo
 
 ```bash
-  https://andy-rs6.github.io/auto-parts-lab2/
+  [https://andy-rs6.github.io/auto-parts-lab2/]
 ```
 
 

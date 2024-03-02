@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    background-color: #4e4e4b;
+    background-color: #343432;
     padding: 10px 0;
     text-align: center;
 }
@@ -29,6 +29,7 @@ section {
     padding: 50px 20px;
     text-align: center;
 }
+
 h2 {
     color: #444;
     margin-bottom: 20px;

@@ -24,8 +24,8 @@ body {
 .car{
   height: 100px;
   width: 380px;
-  background-image: url('../assets/lamb.png');
-  background-size: cover;
+  background-image: url('../assets/ferrari2.png');
+  background-size: 300px;
   background-repeat: no-repeat;
   position: fixed;
   bottom: 0;
@@ -57,20 +57,20 @@ body {
 
 
 .wheel1 img{
-  width: 70px;
+  width: 65px;
   position: absolute;
-  top:40px;
-  left:46px;
-  animation: wheelRotation linear .400s infinite;
+  top: 30px;
+  left:19px;
+  animation: wheelRotation linear .700s infinite;
 }
 
 
 .wheel2 img{
-  width: 77px;
+  width: 65px;
   position: absolute;
-  top: 40px;
-  left: 235px;
-  animation: wheelRotation linear .400s infinite;
+  top: 30px;
+  left: 202px;
+  animation: wheelRotation linear .700s infinite;
 
 }
 
@@ -186,7 +186,8 @@ body {
 .form-2 {
   box-sizing: border-box;
   padding: 3.2rem 2.1rem 3.55rem 4.6rem;
-  width: 55.1rem;
+  max-width: 55.1rem;
+  min-width: 40.1rem;
   height: 100%;
   align-items: center;
   display: flex;
@@ -195,7 +196,7 @@ body {
 }
 
 .reliable-spare-parts-2 {
-  margin: 0rem 1.8rem 5.3rem 0rem;
+  /* margin: 0rem 1.8rem 5.3rem 0rem; */
   max-width: 46.6rem;
   font-size: 4rem;
   font-weight: 700;
@@ -214,7 +215,7 @@ body {
 }
 
 .find-the-perfect-part-2 {
-  margin: 0rem 16.8rem 2.1rem 0rem;
+  /* margin: 0rem 16.8rem 2.1rem 0rem; */
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -1003,11 +1004,23 @@ body {
   
 }
 
+.xxx{
+  display: none;
+}
 
 @media (max-width: 575px) {
 
   /* First Block */
-  .auto-parts-body {
-    font-size: 10px;
+  .component-1-1, .component-1-2 {
+    display: none;
   }
+
+  .xxx{
+    display: block;
+  }
+
+  .form-2{
+    min-width: 100;
+  }
+  
 }

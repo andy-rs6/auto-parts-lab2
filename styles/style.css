@@ -208,7 +208,7 @@ body {
 
 .reliable-spare-parts-2 {
   /* margin: 0rem 1.8rem 5.3rem 0rem; */
-  max-width: 46.6rem;
+  /* min-width: 20.6rem; */
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.2125;
@@ -283,7 +283,7 @@ body {
 }
 
 .find-2 {
-  margin-left: 16.8rem;
+  /* margin-left: 16.8rem; */
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.2125;
@@ -1063,5 +1063,18 @@ button {
     padding: 20px;
   }
 
+  .reliable-spare-parts-2{
+    font-size: 3rem;
+  }
+
+  .reliable-spare-parts-for-your-car-sub-1{
+
+    font-size: 3rem;
+  }
+
+  .find-the-perfect-part-2{
+    padding: 30px;
+    font-size: 2.2rem;
+  }
   
 }
